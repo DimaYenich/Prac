@@ -20,9 +20,10 @@ namespace Day_2_2
 
             Console.WriteLine($"\nКод символу \"{firstSymbol}\" = {first}"+
                               $"\nКод символу \"{secondSymbol}\" = {second}");
-            if(first==second)
+            if(first == second)
             {
                 Console.WriteLine("Символи однакові!");
+                Console.ReadLine();
                 return;
             }
             if(first > second)
