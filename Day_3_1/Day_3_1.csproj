@@ -4,8 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+<<<<<<< HEAD
     <ProjectGuid>{F9A12A66-99F7-4BBB-9FEA-E097E1CA948C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
+=======
+    <ProjectGuid>{670FC999-32DF-48A8-AB8D-14E56CAE80F1}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+>>>>>>> 05f458a8a5230a6d325ea9da014e68a23d033404
     <RootNamespace>Day_3_1</RootNamespace>
     <AssemblyName>Day_3_1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -39,6 +44,7 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
+<<<<<<< HEAD
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Net.Http" />
@@ -72,6 +78,14 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+=======
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+>>>>>>> 05f458a8a5230a6d325ea9da014e68a23d033404
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
